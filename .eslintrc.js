@@ -67,7 +67,7 @@ module.exports = {
 				ignoreTemplateLiterals: true,
 			},
 		],
-		'no-alert': WARN,
+		'no-alert': OFF,
 		'no-console': OFF,
 		'no-continue': OFF,
 		'no-debugger': OFF,
@@ -85,5 +85,6 @@ module.exports = {
 		'react/react-in-jsx-scope': OFF,
 		'react/prop-types': OFF,
 		'prettier/prettier': ERROR,
+		camelcase: OFF,
 	},
 };

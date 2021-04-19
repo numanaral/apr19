@@ -1,5 +1,7 @@
+import UserRepos from 'containers/UserRepos/UserRepos';
+
 const App = () => {
-	return <div>App</div>;
+	return <UserRepos />;
 };
 
 export default App;
